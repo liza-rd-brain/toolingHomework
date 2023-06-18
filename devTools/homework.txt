@@ -1,0 +1,34 @@
+* Network:
+1) HAR: network\www.gd.ru.har
+2)  Дублирование: network\screenshot\network\double1.PNG, network\screenshot\network\double2.PNG
+    Лишний размер ресурса: network\screenshot\network\bigSize1.PNG,network\screenshot\network\bigSize2.PNG (это одна и та же картинка)
+    Медленно загружается: network\screenshot\network\slowLoad.PNG
+    Блокирует загрузку (бутсрап):network\screenshot\network\block.PNG
+    Другое: network\screenshot\network\other.PNG
+    файлы могли бы быть сжаты в gzip
+
+* Performance:
+1) Профиль загрузки: performance\Trace-20230618T232943.json
+2) Время:
+    fp: 520.75ms    performance\screenshot\fp.PNG
+    fcp: 520.75ms   performance\screenshot\fcp.PNG
+    lcp: 2.77s      performance\screenshot\lcp.PNG
+    dcl: 2.63S      performance\screenshot\dcl.PNG
+    l: 39.54S       performance\screenshot\l.PNG
+3) DOM element for lcp: performance\screenshot\lcpElement.PNG,performance\screenshot\lcpElement2.PNG
+4)  Loading: 51ms
+    Scripting: 2297ms
+    Rendering: 748ms
+    Painting: 56ms
+    summary : performance\screenshot\summary.PNG
+
+*Coverage:
+1) Cкриншот вкладки после загрузки страницы:coverage\reload.PNG
+2) Hеиспользованный CSS: 562kB   coverage\cssBytes.PNG
+3) Hеиспользованный JS:  2300kB  coverage\jsBytes.PNG
+
+
+
+
+ 
+    
